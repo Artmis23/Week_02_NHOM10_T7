@@ -10,10 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Login">
         <activity
+            android:name=".Profile"
+            android:exported="false" />
+        <activity
             android:name=".OnboardingThree"
             android:exported="false" />
         <activity
-            android:name=".Splash"
+            android:name=".OnboardingTwo"
             android:exported="false" />
         <activity
             android:name=".Welcome"
@@ -31,7 +34,7 @@
             android:name=".Verification_Code"
             android:exported="false" />
         <activity
-            android:name=".OnboardingTwo"
+            android:name=".Splash"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
